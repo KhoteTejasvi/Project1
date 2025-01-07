@@ -1,0 +1,119 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.navbar{
+    /* border: solid; */
+    display: flex;
+    justify-content: space-around;
+    background-color: #ff6008;
+}
+.navbar a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.navbar a:hover{
+    color: black;
+    transition: all 3s ease;
+}
+/* hero section */
+/* https: //assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg */
+
+.hero {
+    /* border: solid; */
+        height: 65vh;
+        background-image: url(photo.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position: top;
+
+}
+.hero .hero-content{
+    /* border: solid; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 100px
+
+    
+}
+.hero .hero-content h1{
+    color: #111111;
+    font-size: 60px;
+    width: 700px;
+    height: 100px;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    font-weight: 700;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-top: 30px;
+
+}
+.hero .hero-content p{
+    color: #999999;
+    height: 128px;
+    width: 294px;
+    margin-top: 8-px;
+    /* margin: 32px 716px 0px 0px; */
+    font-size: 16px;
+    text-align: left;
+    padding: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    margin-top: 20px;
+}
+
+.hero .hero-content h4 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    width: 400px;
+    height: 24px;
+    color: #111111;
+    margin: 60px 737.275px 0px 0px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.hero .hero-content .btn{
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #ff6008;
+    pointer-events: initial;
+    font-weight: 700;
+    background-image: none;
+    margin: 32px auto 60px 0;
+    padding: 21px 59px 22px 58px;
+    border-color: transparent !important;
+    border-radius: 50px;
+    border-style: solid;
+    text-align: left;
+    border-width: 0 !important;
+    position: relative;
+}
