@@ -21,6 +21,32 @@
     color: black; /* Changes the text color to black on hover.*/
     transition: all 3s ease; /* Smoothly transitions all properties (like color) over 3 seconds.*/
 }
+/* for all */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    }
+    .container h2{
+        width: 109px;
+        height: 52px;
+        font-size: 48px;
+        color: #f0cccf;
+        padding: 10px 20px 10px 20px;
+    }
+    .container p{
+        width: 283px;
+        height: 43px;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin: 18px 18px 0px 18px;
+        text-align: center;
+
+    }
 
 /* hero section */
 
@@ -85,3 +111,69 @@
     border-radius: 50px;  /* Rounds the corners of the button.*/
     font-size: 20px;  /* Sets font size to 20 pixels.*/
 }
+/*  card section */
+.about {
+    background-color: #f0cccf;
+
+}
+
+
+.card {
+    /* border: solid; */
+    width: 28%;
+    height: 400px;
+    margin: 30px 100px 30px 100px;
+    background-color: rgb(252, 253, 254);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+/* contact */
+#contact{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
+    justify-content: center;
+}
+.contact-item {
+    width: 48%;
+}
+.item-1{
+ margin: 50px 150px 50px 150px;
+ width: 359px;
+ height: 267px;
+}
+.item-2{
+ margin: 50px 150px 50px 150px;
+ width: 359px;
+ height: 267px;   
+}
+.item-3{
+ margin: 50px 150px 50px 150px;
+ width: 359px;
+ height: 267px;   
+}
+.item-4{
+ margin: 50px 150px 50px 150px;
+ width: 359px;
+ height: 267px;   
+}
+.item-5{
+ margin: 50px 150px 50px 150px;
+ width: 359px;
+ height: 267px;   
+}
+.item-6{
+ margin: 50px 150px 50px 150px;
+ width: 359px;
+ height: 267px;   
+}
+.highlight-box{
+    
+}
+
+
