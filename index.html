@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="form.css">
   </head>
   <body>
     <header>
@@ -24,8 +26,7 @@
           <h4 class="hero-title">add more speed to your website</h4>
           <h1 class="hero-title">Your success in the industry is our mission..</h1>
           <p class="hero-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptates. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, aut! Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Actually, this is quite simple to achieve – because each time we help them in sorting out different accounting intricacies or save the day before filing the taxes, they are happy indeed.
           </p>
           <button class="btn">Learn More</button>
         </div>
@@ -34,59 +35,96 @@
     <!-- main section -->
     <main>
      <!-- card section -->
-      <div class="about">
-      <section id="about" class="container">
-          <div class="card item-1">
-            <h2>2018</h2>
-            <p>Sample text. Click to select the Text Element.</p>
-          </div>
-          <div class="card item-2">
-            <h2>2019</h2>
-            <p>Sample text. Click to select the Text Element.</p>
-          </div>
-          <div class="card item-3">
-            <h2>2020</h2>
-            <p>Sample text. Click to select the Text Element.</p>
-          </div>
-          <div class="card item-4">
-            <h2>2021</h2>
-            <p>Sample text. Click to select the Text Element.</p>
-          </div>
-          <div class="card item-5">
-            <h2>2022</h2>
-            <p>Sample text. Click to select the Text Element.</p>
-          </div>
-          <div class="card item-6">
-            <h2>2023</h2>
-            <p>Sample text. Click to select the Text Element.</p>
-          </div>
-        </section>
-    </div>
+     <section class="success">
+      <div class="per-year-success">
+        <h1>2018</h1>
+        <p>Sample text. Click to select the Text<br />Element.</p>
+      </div>
+      <div class="per-year-success">
+        <h1>2019</h1>
+        <p>Sample text. Click to select the Text<br />Element.</p>
+      </div>
+      <div class="per-year-success">
+        <h1>2020</h1>
+        <p>Sample text. Click to select the Text<br />Element.</p>
+      </div>
+      <div class="per-year-success">
+        <h1>2021</h1>
+        <p>Sample text. Click to select the Text<br />Element.</p>
+      </div>
+      <div class="per-year-success">
+        <h1>2022</h1>
+        <p>Sample text. Click to select the Text<br />Element.</p>
+      </div>
+      <div class="per-year-success">
+        <h1>2023</h1>
+        <p>Sample text. Click to select the Text<br />Element.</p>
+      </div>
+    </section>
 
-      <!-- contact  -->
-      <section id="contact" class="contact">
-        <div class="text-section contact-item">
-          <h3>Explore national parks with digital tours, ranger programs, educational opportunities, and more.</h3>
-          <p>Lorem, ipsum dolor.</p>
-          <p>Lorem, ipsum dolor.</p>
-          <p>Lorem, ipsum dolor.</p>
 
-           </div>
-        <div class="highlight-box contact-item">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sequi
-            voluptate alias recusandae non labore error, odit omnis quasi
-            consectetur qui! Porro harum obcaecati deleniti, ad libero facere
-            odit amet!
-          </p>
-          <p class="important">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Voluptatum, quisquam modi. Velit nesciunt aspernatur unde cum quod
-            commodi distinctio beatae nemo dolore. Libero temporibus quaerat
-            iusto laboriosam cum corrupti doloribus!
-          </p>
+      <!-- contact start -->
+    
+    <section class="contact">
+      <div class="contact-content information">
+        <h2>
+          Explore national parks with digital tours, ranger programs,
+          educational opportunities, and more.
+        </h2>
+        <p>
+          <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet,
+          consectetur
+        </p>
+        <p>
+          <i class="fa-solid fa-check"></i> Elit, sed do eiusmod tempor
+          incididun
+        </p>
+        <p>Image from Freepik</p>
+        <button class="book-btn">Book Now</button>
+      </div>
+      <div class="content information">
+        <p>
+          Article evident arrived express highest men did boy. Mistress sensible
+          entirely am so. Quick can manor smart money hopes worth too. Comfort
+          produce husband boy her had hearing.
+        </p>
+        <p>
+          <b>
+            Oh feel if up to till like. He an thing rapid these after going
+            drawn or. Timed she his law the spoil round defer. In surprise
+            concerns informed betrayed he learning is ye.
+          </b>
+        </p>
+      </div>
+      <div class="img-first information"></div>
+      <div class="img-second information"></div>
+    </section>
+    <!-- contact end -->
+    <!-- form started -->
+    <section class="form">
+      <div class="container">
+        <!-- Form Section -->
+        <div class="form-container">
+          <form class="contact-form">
+            <h2>Contact Us</h2>
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            
+            <label for="number">Phone Number</label>
+            <input type="tel" id="number" name="number" placeholder="Enter your phone number" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message" required></textarea>
+            
+            <button type="submit">Submit</button>
+          </form>
         </div>
-      </section>
+      </div>
+    </section>
+
     <script src="./app.js"></script>
   </body>
 </html>

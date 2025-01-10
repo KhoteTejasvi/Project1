@@ -1,0 +1,97 @@
+/* Form start */
+
+/* Form container */
+.container {
+    display: flex; /* Enables the use of flexbox layout for flexible positioning of child elements. */
+    justify-content: center; /* Horizontally centers the child elements within the container. */
+    align-items: center; /* Vertically centers the child elements within the container. */
+    height: 100%;/* Ensures the container takes up the full height of the viewport. */
+    padding: 20px; /* Adds 20px spacing inside the container on all sides. */
+    background: url("background_img.jpg") no-repeat center center; /* Sets a background image that doesn’t repeat and centers it horizontally and vertically. */
+    background-size: cover; /* Cover the entire container */
+  }
+  
+  /* Form container with transparent background */
+  .form-container {
+    padding: 30px; /* Adds 30px of spacing inside the form container on all sides. */
+    border-radius: 10px; /* Rounds the corners of the form container by 10px. */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow with 4px vertical offset, 8px blur radius, and slight transparency. */
+    border: 2px solid #ffa726; /* Creates a solid orange border around the form. */
+    color: #ffffff; /* Sets the text color inside the form to white. */
+    position: relative; /* Positions the element relative to its normal position for layering effects. */
+    max-width: 500px; /* Restricts the maximum width of the form to 500px. */
+    width: 100%; /* Ensures the form takes up the full width of its container. */
+  }
+  
+  /* Add a transparent overlay */
+  .form-container::before {
+    content: ""; /* Creates a pseudo-element with no content. */
+    position: absolute; /* Positions the overlay relative to the form container. */
+    top: 0; /* Aligns the top edge of the overlay with the form container. */
+    left: 0; /* Aligns the left edge of the overlay with the form container. */
+    right: 0; /* Aligns the right edge of the overlay with the form container. */
+    bottom: 0; /* Aligns the bottom edge of the overlay with the form container. */
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a semi-transparent black background (50% opacity). */
+    border-radius: 10px; /* Matches the border-radius of the form container. */
+    z-index: 1; /* Places the overlay behind the content inside the form container. */
+  }
+  
+  /* Form content */
+  .contact-form {
+    position: relative; /* Positions the form content above the overlay. */
+    z-index: 2; /* Ensures form elements are above the overlay */
+  }
+  
+  /* Form heading */
+  .contact-form h2 {
+    text-align: center; /* Centers the heading text horizontally. */
+    color: #ffffff; /* White text for the heading */
+    margin-bottom: 20px; /* Adds 20px of space below the heading. */
+  }
+  
+  /* Form labels and inputs */
+  .contact-form label {
+    display: block; /* Makes the label occupy its own line. */
+    margin-bottom: 5px; /* Adds 5px space below the label. */
+    color: #ffffff; /* Sets the label text color to white. */
+    font-weight: bold; /* Makes the label text bold. */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%; /* Makes the inputs and textareas take up the full width of their container. */
+    padding: 10px; /* Adds 10px of padding inside the inputs and textareas. */
+    margin-bottom: 15px; /* Adds 15px of space below each input or textarea. */
+    border: 1px solid #ddd; /* Creates a light gray border around inputs and textareas. */
+    border-radius: 5px; /* Rounds the corners of the inputs and textareas. */
+    font-size: 14px; /* Sets the font size to 14px. */
+    box-sizing: border-box; /* Ensures padding and border are included in the element’s total width and height. */
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #ffa726; /* Changes the border color to orange when the input/textarea is focused. */
+    outline: none; /* Removes the default browser outline on focus. */
+  }
+  
+  /* Submit button */
+  .contact-form button {
+    display: block; /* Makes the button occupy its own line. */
+    width: 100%; /* Makes the button take up the full width of its container. */
+    padding: 10px; /* Adds 10px padding inside the button. */
+    background-color: #ff9800; /* Sets the button’s background color to orange. */
+    color: #ffffff; /* Sets the button text color to white. */
+    font-size: larger; /* Increases the font size of the button text. */
+    font-weight: bold; /* Makes the button text bold. */
+    border: none; /* Removes any border from the button. */
+    border-radius: 5px; /* Rounds the corners of the button by 5px. */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button. */
+    transition: background-color 0.3s ease; /* Smoothly transitions the background color over 0.3 seconds when it changes. */
+  }
+  
+  .contact-form button:hover {
+    background-color: #e68a00; /* Changes the button background to a darker orange on hover. */
+    color: black; /* Changes the button text color to black on hover. */
+  }
+  /* Form end*/
+  
